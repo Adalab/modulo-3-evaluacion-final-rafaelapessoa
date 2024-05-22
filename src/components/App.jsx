@@ -1,12 +1,21 @@
+import { useEffect, useState } from "react";
+import "../scss/App.scss";
+import getDataFromApi from "../services/api";
+import ListUser from "./ListUser";
 
 
 function App() {
+  const [listUsers, setListUser] = useState([])
 
-  return <><h1>Mi web xyz</h1>
-    <h2>Mi web</h2>
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo impedit fugiat quas laboriosam inventore qui excepturi alias ab quia quod ex voluptatem error omnis, praesentium nemo ad ut odit maiores. </p>
-  </>
+  useEffect(() => {
+    getDataFromApi().then((newArray) => { setListUser(newArray) })
+  }, [])
 
+  return ( 
+    <>
+      <ListUser listUsers={listUsers} />
+    </>
+  )
 }
 
 export default App
