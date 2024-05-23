@@ -7,7 +7,10 @@ const getDataFromApi = ()=>{
                 name: user.name,
                 id: user.id,
                 specie: user.species,
-                image: user.image
+                image: user.image,
+                status: user.status,
+                origin: user.origin.name,
+                episode: user.episode.length
             };
         });
         return newArray;

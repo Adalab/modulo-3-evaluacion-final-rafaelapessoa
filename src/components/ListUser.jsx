@@ -1,13 +1,14 @@
 import User from "./User"
 
-function ListUser({ listUser }) {
+function ListUser({ listUsers }) {
 
-    const html = listUser.map((user) => <User key={user.id} info={user} />)
+    const html = listUsers.map((user) => <User key={user.id} info={user} />)
 
-    return (
+    return (    
         <div>
             {html}
         </div>
+    
     )
 }
 
