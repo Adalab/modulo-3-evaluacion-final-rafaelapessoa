@@ -1,7 +1,7 @@
 import { Link, Navigate } from "react-router-dom"
 
 function DetailUser({userDetail}) {
-    return ( userDetail ?        
+    return ( userDetail ?            
             <form>    
             <Link to="/">Volver</Link>    
             <img src={userDetail.image} alt="" />

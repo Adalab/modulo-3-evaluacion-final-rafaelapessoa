@@ -7,3 +7,58 @@
 article{
     margin: 15px;
 }
+
+.input{
+    width: 300px;
+    height: 30px;
+    background-color: transparent;
+    border: solid 2px #00B6CB;
+    color: white;
+}
+
+.container{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 30%;
+
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 10px;     
+}
+
+.card{
+    background-color: #00B6CB
+}
+
+
+.photo{
+    grid-area: photo;
+    width: 100%;
+    height: auto;
+}
+
+.name{
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.specie{
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-bottom: 15px;
+}
