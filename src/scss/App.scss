@@ -26,7 +26,7 @@ article{
 
 .logo{
     width: 30%;
-
+    
 }
 
 .cards{
@@ -41,6 +41,9 @@ article{
     background-color: #00B6CB
 }
 
+.link{
+    text-decoration: none;
+}
 
 .photo{
     grid-area: photo;
@@ -62,3 +65,45 @@ article{
     margin-left: 10px;
     padding-bottom: 15px;
 }
+
+.containerDetail{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logoDetail{
+    width: 30%;
+}
+
+.btnBack{    
+    text-decoration: none;
+    color: white;   
+}
+
+.cardDetail{
+    display: flex;
+    background-color: #00B6CB;
+    padding: 20px;
+    margin-left: 5px;    
+}
+
+.imgDetail{
+    margin-left: 0px;
+}
+
+.infosCard{
+    list-style: none;
+    color: white; 
+    margin-left: 10px;
+    padding-top: 55px;    
+}
+
+.nameDetail{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
