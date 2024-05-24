@@ -26,7 +26,6 @@ En la página de detalles se muestra:
 - Especie
 - Planeta de origen
 - Número de episodios en los que aparece
-- Estado (vivo o muerto)
 
   ![image](https://github.com/Adalab/modulo-3-evaluacion-final-rafaelapessoa/assets/101877831/85544432-2533-4993-8a21-a04191fa18cf)
 
