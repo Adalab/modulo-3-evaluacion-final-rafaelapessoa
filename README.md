@@ -1,6 +1,9 @@
 # Rick and Morty Characters Web App
 Este proyecto consiste en desarrollar una página web utilizando React que muestre un listado de personajes de la serie "Rick and Morty". La aplicación permite filtrar personajes por nombre y mostrar detalles completos de cada personaje. A continuación, se describen las funcionalidades y cómo configurar y ejecutar el proyecto.
 
+![image](https://github.com/Adalab/modulo-3-evaluacion-final-rafaelapessoa/assets/101877831/fa87ea83-4747-465f-b26c-2e7c6bfca87c)
+
+
 # Funcionalidades
 *Listado de Personajes*
 
@@ -24,6 +27,9 @@ En la página de detalles se muestra:
 - Planeta de origen
 - Número de episodios en los que aparece
 - Estado (vivo o muerto)
+
+  ![image](https://github.com/Adalab/modulo-3-evaluacion-final-rafaelapessoa/assets/101877831/85544432-2533-4993-8a21-a04191fa18cf)
+
 
 # Uso
 *Navegación Principal*
