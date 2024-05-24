@@ -2,7 +2,7 @@
 Este proyecto consiste en desarrollar una página web utilizando React que muestre un listado de personajes de la serie "Rick and Morty". La aplicación permite filtrar personajes por nombre y mostrar detalles completos de cada personaje. A continuación, se describen las funcionalidades y cómo configurar y ejecutar el proyecto.
 
 # Funcionalidades
-Listado de Personajes
+*Listado de Personajes*
 
 Se obtiene la información de los personajes a través de la API de Rick and Morty.
 Se muestra una lista de los primeros 20 personajes, incluyendo:
