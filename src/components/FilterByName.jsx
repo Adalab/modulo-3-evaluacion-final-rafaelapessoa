@@ -4,9 +4,9 @@ function FilterByName ({setNameFilter}) {
         setNameFilter(event.target.value);
     };
 
-    return (
+    return (        
         <input className="input" type="text" placeholder="Filtrar por nombre" onChange={handleInputChange} />
-    );
+    ); 
 }
 
 export default FilterByName
